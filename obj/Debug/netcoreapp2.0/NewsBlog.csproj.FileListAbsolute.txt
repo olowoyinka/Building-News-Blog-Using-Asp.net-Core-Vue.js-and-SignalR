@@ -1,0 +1,13 @@
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\app.db
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\NewsBlog.deps.json
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\NewsBlog.runtimeconfig.json
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\NewsBlog.runtimeconfig.dev.json
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\NewsBlog.dll
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\bin\Debug\netcoreapp2.0\NewsBlog.pdb
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.csproj.CoreCompileInputs.cache
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.AssemblyInfoInputs.cache
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.AssemblyInfo.cs
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.dll
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.pdb
+c:\Users\olowoyinka\Documents\Visual Studio 2017\Projects\Review_My_Work\NewsBlog\NewsBlog\obj\Debug\netcoreapp2.0\NewsBlog.csprojAssemblyReference.cache

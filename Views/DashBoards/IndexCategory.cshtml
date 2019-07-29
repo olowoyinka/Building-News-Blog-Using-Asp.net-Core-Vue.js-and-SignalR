@@ -1,0 +1,60 @@
+﻿@model PaginatedList<NewsData.Models.Category>
+
+@{
+    ViewData["Title"] = "IndexCategory";
+}
+
+<h2>Index of Category</h2>
+
+<hr />
+
+
+<div class="row">
+    <div class="col-md-4 col-xs-4"><a asp-action="IndexArticle" class="btn btn-primary">Index of Article</a></div>
+    <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-2"><a asp-action="AddCategory" class="btn btn-primary">Add New Categories</a></div>
+</div>
+
+<hr />
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    <a asp-action="EditCategory" asp-route-id="@item.CategoryID">Edit</a> |
+                    <a asp-controller="categorys" asp-action="Details" asp-route-id="@item.CategoryID">Details</a> |
+                    <a asp-action="DeleteCategory" asp-route-id="@item.CategoryID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+<a asp-action="IndexCategory"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-page="@(Model.PageIndex - 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @prevDisabled btn">
+    Previous
+</a>
+<a asp-action="IndexCategory"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   asp-route-page="@(Model.PageIndex + 1)"
+   asp-route-currentFilter="@ViewData["CurrentFilter"]"
+   class="btn btn-default @nextDisabled btn">
+    Next
+</a>

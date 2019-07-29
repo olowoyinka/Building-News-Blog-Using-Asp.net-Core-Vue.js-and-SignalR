@@ -1,0 +1,46 @@
+﻿@model NewsData.Models.Category
+
+@{
+    ViewData["Title"] = "EditCategory";
+}
+
+<h2>Edit of Category</h2>
+
+<<hr />
+
+<div class="row">
+    <div class="col-md-4"><a asp-action="IndexCategory" class="btn btn-primary">Back to Index</a></div>
+
+</div>
+
+<hr />
+<hr />
+
+<form asp-action="EditCategory">
+    <div class="form-horizontal">
+        <h4>Category</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="CategoryID" />
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
